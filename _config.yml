@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  repository: https://github.com/ximengyi/ximengyi.github.io.git
+  type: git 
+  branch: master
