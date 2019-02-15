@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 夕小魔
-subtitle:
-description:
-keywords:
-author: John Doe
+title: 南歌子
+subtitle: XI的博客
+description: 技术博客 
+keywords: 博客 笔记
+author: 依然XI
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://ximengyi.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -24,6 +24,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
+about_dir: about
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:

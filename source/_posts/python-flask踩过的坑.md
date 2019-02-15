@@ -1,7 +1,7 @@
 ---
 title: python-flask
 date: 2017-6-25 15:17:16
-tags: flask 
+tags: flask python
 ---
 
 #### [['GET','POST]']一定按照这个顺序来写,否则get或post请求会无法访问
