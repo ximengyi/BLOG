@@ -16,6 +16,7 @@ git diff
 ``` bash
 git checkout .
 ```
+<!-- more -->
 
 ### 添加当前目录 & 提交
 

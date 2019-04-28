@@ -3,6 +3,7 @@ title: docker 实践
 date: 2018-05-25 15:17:16
 tags: docker
 ---
+
 公司的项目都切换成了docker，不同的项目进行了隔离，维护起来很方便。抽空记录一下常用的命令和自己捣鼓的东西。
 
 镜像相当于装系统时的iso文件，容器相当于系统，一个iso文件系统盘可以装无数个系统，同理一个镜像可以运行无数个容器
@@ -18,7 +19,7 @@ docker rmi fe4a64cc837f
 ``` bash
 docker build -t php7 .  // .为当前目录，docker会自动寻找当前目录下的dockerfile文件 如果使用其他路径加-f 跟其他路径
 ```
-
+<!-- more -->
 ### 远程拉取镜像
 远程镜像 Jessie stretch wheezy 都是 Debian 发行版本的代称
 debian 系安装vim

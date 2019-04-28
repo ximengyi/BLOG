@@ -4,13 +4,14 @@ date: 2017-6-25 15:17:16
 tags: flask python
 ---
 
+
 #### [['GET','POST]']一定按照这个顺序来写,否则get或post请求会无法访问
 ####  if request.method=='POST': #method或者request不能多写S 
 #### url('.hello'),记得写''分号 
 #### 提交表单插入数据时，表单的input框type一定的写成text，如果为email，则表单并不能提交，这个错误应该是bootstap开启了javascript表单验证不为email格式则不能提交表单
 ***
 ### 关于数据库操作对象的思考,如下代码
-
+<!-- more -->
 
 ```python
 SELECT STUNUM,NAME FROM STUDENT INNER JOIN COMSTU ON STUDENT.RFID=COMSTU.RFID AND COMNUM=1 AND SUBJECT='数学'
